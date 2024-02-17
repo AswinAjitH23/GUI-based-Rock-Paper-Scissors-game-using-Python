@@ -79,31 +79,3 @@ class RPS(QMainWindow):
 app = QApplication([])
 window = RPS()
 app.exec()
-
-
-
-
-
-
-
-
-'''
-def rock_paper_scissors(comp, user):
-    print("Computer:", comp,"and", "User:", user)
-    if comp==user:
-        print("Tie!!!\n")
-    elif (comp == "Rock" and user == "Paper") or (comp == "Scissors" and user == "Rock") or (comp == "Paper" and user == "Scissors"):
-        print("User wins :)\n")
-    else:
-        print("User lose :(\n")
-
-rock_paper_scissors_list = ['Rock','Paper','Scissors']
-computers_choice = rd.choice(rock_paper_scissors_list)
-
-while True:
-    print("Press\n 1.Rock\n 2.Paper\n 3.Scissors\n")
-    user_input = int(input("Enter your choice:"))
-    user_choice = rock_paper_scissors_list[user_input - 1]
-    rock_paper_scissors(computers_choice, user_choice)
-    
-'''
